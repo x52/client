@@ -1,5 +1,5 @@
 // App.js
-
+//new 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import LoginPage from '../src/components/LoginPage';
@@ -14,6 +14,7 @@ function App() {
         <Route exact path="/login" component={LoginPage} />
         <PrivateRoute exact path="/list" component={ListComponent} />
         <Redirect from="/" to="/login" />
+
       </Switch>
     </Router>
   );
