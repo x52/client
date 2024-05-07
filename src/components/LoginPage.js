@@ -109,9 +109,9 @@ const LoginPage = ({ history }) => {
        Login
       </MDBTypography>
       <form onSubmit={handleLogin}>
-      <MDBInput label="Example label" id="form1" type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)}/>
+      <MDBInput label="Enter name" id="form1" type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)}/>
       <br />
-      <MDBInput label="Example label" id="form1" type="text"  placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}/>
+      <MDBInput label="Enter password" id="form1" type="text"  placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}/>
       <br />
       <Stack direction="horizontal" gap={2}>
       <MDBBtn color='light' rippleColor='dark' type='submit'>
